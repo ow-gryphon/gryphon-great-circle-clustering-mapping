@@ -1,15 +1,15 @@
 {
-    "display_name": "",
-    "command": "",
-    "dependencies": [],
+    "display_name": "Add-on to great circle distance with clustering and mapping",
+    "command": "generate",
+    "dependencies": ["pandas", "numpy", "matplotlib", "scipy", "basemap"],
 
-    "keywords": [],
-    "methodology": [],
+    "keywords": ["Distance", "Geographical", "Geospatial", "Great Circle", "Longitude", "Latitude", "Clustering", "Hierarchical Clustering", "Mapping"],
+    "methodology": ["Geospatial"],
     "topic": [],
+    "sector": [],
 
-    "description": "",
-    "author": "",
-    "author_email": "",
-	
-	"read_more_link": ""
+    "description": "After calculating distances between geographic locations (defined by longitude and latitude), clusters the locations based on the distance matrix, and plots each cluster on a basic map.",
+    "author": "Daniel Wang",
+    "author_email": "daniel.wang@oliverwyman.com",
+    "read_more_link": "https://github.com/ow-gryphon/gryphon-great-circle-clustering-mapping"
 }
